@@ -5,7 +5,7 @@
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://ehealth4hepatitis.ph//fhir/upvhproject/ImplementationGuide/upvhproject"/>
+  <url value="http://ehealth4hepatitis.ph/fhir/upvhproject/ImplementationGuide/upvhproject"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0-test"/>
   <name value="upvhproject"/>
@@ -48,8 +48,20 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="MyIG Home Page"/>
+        <title value="UP Manila Viral Hepatitis Project IG Home Page"/>
         <generation value="html"/>
+      </page>
+
+      <page>
+        <nameUrl value="background.html"/>
+        <title value="Background"/>
+        <generation value="markdown"/>
+      </page>
+      
+      <page>
+        <nameUrl value="vissionobjectives.html"/>
+        <title value="Vission/Objectives"/>
+        <generation value="markdown"/>
       </page>
     <!-- change history page -->
       <page>
