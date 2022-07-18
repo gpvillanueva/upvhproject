@@ -53,14 +53,8 @@
       </page>
 
       <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="markdown"/>
-      </page>
-      
-      <page>
-        <nameUrl value="vissionobjectives.html"/>
-        <title value="Vission/Objectives"/>
+        <nameUrl value="introduction.html"/>
+        <title value="Introduction"/>
         <generation value="markdown"/>
       </page>
     <!-- change history page -->
