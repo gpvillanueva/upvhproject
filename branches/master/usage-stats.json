@@ -1,5 +1,5 @@
 {
-  "package": "xxexample.fhir.uv.myig",
+  "package": "upmanila.fhir.upvhproject",
   "version": "0.1.0-test",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
@@ -8,6 +8,9 @@
   "usage": {
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
     ]
   }
 }

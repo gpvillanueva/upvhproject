@@ -1,9 +1,16 @@
 [
   {
-    "id": "xxexample.fhir.uv.myig",
+    "id": "upvhproject",
     "type": "ImplementationGuide",
-    "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+    "url": "http://ehealth4hepatitis.ph/fhir/upvhproject/ImplementationGuide/upvhproject",
     "version": "0.1.0-test",
-    "name": "XXYourComputableMyIGNameHere"
+    "name": "upvhproject"
+  },
+  {
+    "id": "ViralHepatitisModel",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel",
+    "version": "0.1.0-test",
+    "name": "ViralHepatitisModel"
   }
 ]
