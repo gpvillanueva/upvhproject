@@ -2,7 +2,6 @@ Logical: ViralHepatitisModel
 Title: "Viral Hepatitis Logical Model"
 Description: "Viral Hepatitis Information model"
 
-
 * ConsultDate 1..1 dateTime "Consult Date (MM/DD/YYYY)"
 * PatientCode 1..1 Identifier "Patient Code" "Patient Identifier"
 * TestingFacilityName 1..1 Reference "Testing Facility Name" "The location where the encounter takes place."
@@ -12,6 +11,7 @@ Description: "Viral Hepatitis Information model"
 * TestedPositiveFor 0..1 BackboneElement "If patient tested positive for Hepatitis B and/or Hepatitis C"
   * TestedPositiveForHepatitisB 0..1 BackboneElement "If patient tested positive for Hepatitis B"
   * TestedPositiveForHepatitisC 0..1 BackboneElement "If patient tested positive for Hepatitis C"
+
 * DateofBaselineHBsAgTest 0..1 dateTime "Date of Baseline HBsAgTest (MM/DD/YYYY)"
 * DateofBaselineAnti-HCVTest 0..1 dateTime "Date of Baseline Anti-HCV test (MM/DD/YYYY)"
 * FirstName 0..* HumanName "First Name" "First Name of the Patient"
@@ -40,3 +40,28 @@ Description: "Viral Hepatitis Information model"
   * PermanentAddressCityMunicipality 1..* Address "Permanent City/Municipality Address of the Patient"
   * PermanentAddressProvince 1..* Address "Permanent Province Address of the Patient"
   * PermanentAddressRegion 1..* Address "Permanent Region Address of the Patient"
+
+* DidTheClientsMotherTestPositiveForHepatitisB 1..1 BackboneElement "History of Client's mother for Hepatitis B" "Did the client's mother test positive for Hepatitis B?"
+* DidTheClientsMotherTestPositiveForHepatitisC 1..1 BackboneElement "History of Client's mother for Hepatitis C" "Did the client's mother test positive for Hepatitis C?"
+* DidTheClientsSpouseOrPartnerTestPositiveForHepatitisB 1..1 BackboneElement "History of Client's Spouse/Partner for Hepatitis B" "Did the client's spouse/partner test positive for Hepatitis B?"
+* DidTheClientsSpouseOrPartnerTestPositiveForHepatitisC 1..1 BackboneElement "History of Client's Spouse/Partner for Hepatitis C" "Did the client's spouse/partner test positive for Hepatitis C?"
+* DoesTheClientHaveHistoryOfSharingNeedleAndOrSyringeWithOthers 1..1 CodeableConcept "History of client of using/sharing needle or syringe with others" "Does the client have history of sharing needle and/or syringe with others?"
+* DoesTheClientHaveHistoryOfInjectingDrugs 1..1 CodeableConcept "Does the client have history of injecting drugs?"
+* HasTheClientBeenAccidentallyPrickedByObjectContaminatedWithBlood 1..1 CodeableConcept "Has the client been accidentally pricked by needles/sharps or other objects contaminated with blood?"
+* DidTheClientReceiveATattoo 1..1 CodeableConcept "Did the client receive a tattoo?"
+* WasThereAHistoryInThePastYearOfSexualIntercourseWithAMale 1..1 CodeableConcept "Was there a history(past year) of sexual intercourse with a male?"
+* WasThereAHistoryInThePastYearOfSexualIntercourseWithAFemale 1..1 CodeableConcept "Was there a history(past year) of sexual intercourse with a female?"
+* DoesTheClientPayInCashOrInKindForSex 1..1 CodeableConcept "Does the client pay (in cash or in kind) for sex?"
+* DoesTheClientAcceptPaymentInCashOrInKindInExchangeForSex 1..1 CodeableConcept "Does the client accept payment (in cash or in kind) in exchange for sex?"
+* WasThereAHistoryOfEmploymentAbroadInThePast 1..1 CodeableConcept "Was there a history of employment abroad in the past?"
+
+* IsThereAFamilyHistoryOfHCCOrPrimaryLiverCancer 1..1 BackboneElement "History of Client's family on Hepatocellular Carcinoma (HCC)/Primary Liver Cancer" "Is there a family history of Hepatocellular Carcinoma (HCC)/primary liver cancer?"
+* DoesTheClientHaveHCCPriorToHepatitisBAndOrHepatitisCDiagnosis 1..1 CodeableConcept "Client's History of having Hepatocellular Carcinoma" "Does the client have hepatocellular carcinoma prior to Hepatitis B and/or Hepatitis C diagnosis?"
+* DoesTheClientHaveHistoryOfReceivingBloodOrBloodProducts 1..1 CodeableConcept "Client's History of Receiving Blood or Blood Products" "Does the client have history of receiving blood/blood products?"
+* DoesTheClientHaveHistoryOfUndergoingHemodialysis 1..1 CodeableConcept "Client's History of undergoing hemodialysis" "Does the client have history of undergoing hemodialysis?"
+
+* WasThereAHistoryOfBeingVaccinatedForHepatitisA 1..1 CodeableConcept "Client's History of Being Vaccinated for Hepatitis A" "Was there a history of being vaccinated for Hepatitis A?"
+* WasThereAHistoryOfBeingVaccinatedForHepatitisB 1..1 CodeableConcept "Client's History of Being Vaccinated for Hepatitis B" "Was there a history of being vaccinated for Hepatitis B?"
+
+
+* DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment 1..1 CodeableConcept "Client's History of Undergoing HIV Treatment Prior to Enrollment" "Does the client have history of HIV treatment prior to enrollment?"
