@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.myig",
+  "id": "upvhproject",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>upvhproject</h2><p>The official URL for this implementation guide is: </p><pre>http://ehealth4hepatitis.ph/fhir/upvhproject/ImplementationGuide/upvhproject</pre><div><p>This is an Implementation Guide for the Monitoring the Chronic Viral Hepatitis Treatment Cascade through Electronic Medical Records Project of Unviersity of the Philippines Manila - College of Medicine</p>\n</div></div>"
   },
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+  "url": "http://ehealth4hepatitis.ph/fhir/upvhproject/ImplementationGuide/upvhproject",
   "version": "0.1.0-test",
-  "name": "XXYourComputableMyIGNameHere",
-  "title": "xxYour User Friendly Name for MyIG Here",
+  "name": "upvhproject",
+  "title": "UP Manila Viral Hepatitis Project Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-02-16T21:37:57+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2022-08-08T09:24:39+00:00",
+  "publisher": "University of the Philippines Manila",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://xxhl7.org/Special/committees/[something]"
+          "value": "http://ehealth4hepatitis.ph/"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "This is an Implementation Guide for the Monitoring the Chronic Viral Hepatitis Treatment Cascade through Electronic Medical Records Project of Unviersity of the Philippines Manila - College of Medicine",
   "jurisdiction": [
     {
       "coding": [
@@ -34,10 +34,18 @@
       ]
     }
   ],
-  "packageId": "xxexample.fhir.uv.myig",
+  "packageId": "upmanila.fhir.upvhproject",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    }
   ],
   "definition": {
     "extension": [
@@ -192,7 +200,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://xxsomewhere.org/fhir/myig/history.html"
+            "valueString": "http://ehealth4hepatitis.ph/fhir/upvhproject/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -352,6 +360,34 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ViralHepatitisModel"
+        },
+        "name": "Viral Hepatitis Logical Model",
+        "description": "Viral Hepatitis Information model"
       }
     ],
     "page": {
@@ -361,8 +397,13 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "UP Manila Viral Hepatitis Project IG Home Page",
           "generation": "html"
+        },
+        {
+          "nameUrl": "introduction.html",
+          "title": "Introduction",
+          "generation": "markdown"
         },
         {
           "nameUrl": "changes.html",

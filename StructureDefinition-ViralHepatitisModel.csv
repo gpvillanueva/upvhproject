@@ -1,0 +1,116 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"ViralHepatitisModel","ViralHepatitisModel","","","",0,*,"","","","","Viral Hepatitis Logical Model","Viral Hepatitis Information model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ViralHepatitisModel.ConsultDate","ViralHepatitisModel.ConsultDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Consult Date (MM/DD/YYYY)","Consult Date (MM/DD/YYYY)","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.ConsultDate",1,1,"",""
+"ViralHepatitisModel.PatientCode","ViralHepatitisModel.PatientCode","","","",1,1,"","","","Identifier {[]} {[]}
+","Patient Code","Patient Identifier","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PatientCode",1,1,"",""
+"ViralHepatitisModel.TestingFacilityName","ViralHepatitisModel.TestingFacilityName","","","",1,1,"","","","Reference {[]} {[]}
+","Testing Facility Name","The location where the encounter takes place.","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.TestingFacilityName",1,1,"",""
+"ViralHepatitisModel.ContactNo","ViralHepatitisModel.ContactNo","","","",0,*,"","","","ContactPoint {[]} {[]}
+","Contact Number","Contact number of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.ContactNo",0,*,"",""
+"ViralHepatitisModel.FacilityAddress","ViralHepatitisModel.FacilityAddress","","","",1,1,"","","","Address {[]} {[]}
+","Facility Address","Physical location where the encounter takes place","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.FacilityAddress",1,1,"",""
+"ViralHepatitisModel.ClientType","ViralHepatitisModel.ClientType","","","",1,1,"","","","code {[]} {[]}
+","Client Type","Walk-in, Referrakm, and In-patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.ClientType",1,1,"",""
+"ViralHepatitisModel.TestedPositiveFor","ViralHepatitisModel.TestedPositiveFor","","","",0,1,"","","","BackboneElement {[]} {[]}
+","If patient tested positive for Hepatitis B and/or Hepatitis C","If patient tested positive for Hepatitis B and/or Hepatitis C","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.TestedPositiveFor",0,1,"",""
+"ViralHepatitisModel.TestedPositiveFor.TestedPositiveForHepatitisB","ViralHepatitisModel.TestedPositiveFor.TestedPositiveForHepatitisB","","","",0,1,"","","","BackboneElement {[]} {[]}
+","If patient tested positive for Hepatitis B","If patient tested positive for Hepatitis B","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.TestedPositiveFor.TestedPositiveForHepatitisB",0,1,"",""
+"ViralHepatitisModel.TestedPositiveFor.TestedPositiveForHepatitisC","ViralHepatitisModel.TestedPositiveFor.TestedPositiveForHepatitisC","","","",0,1,"","","","BackboneElement {[]} {[]}
+","If patient tested positive for Hepatitis C","If patient tested positive for Hepatitis C","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.TestedPositiveFor.TestedPositiveForHepatitisC",0,1,"",""
+"ViralHepatitisModel.DateofBaselineHBsAgTest","ViralHepatitisModel.DateofBaselineHBsAgTest","","","",0,1,"","","","dateTime {[]} {[]}
+","Date of Baseline HBsAgTest (MM/DD/YYYY)","Date of Baseline HBsAgTest (MM/DD/YYYY)","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DateofBaselineHBsAgTest",0,1,"",""
+"ViralHepatitisModel.DateofBaselineAnti-HCVTest","ViralHepatitisModel.DateofBaselineAnti-HCVTest","","","",0,1,"","","","dateTime {[]} {[]}
+","Date of Baseline Anti-HCV test (MM/DD/YYYY)","Date of Baseline Anti-HCV test (MM/DD/YYYY)","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DateofBaselineAnti-HCVTest",0,1,"",""
+"ViralHepatitisModel.FirstName","ViralHepatitisModel.FirstName","","","",0,*,"","","","HumanName {[]} {[]}
+","First Name","First Name of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.FirstName",0,*,"",""
+"ViralHepatitisModel.MiddleName","ViralHepatitisModel.MiddleName","","","",0,*,"","","","HumanName {[]} {[]}
+","Middle Name","Middle Name of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.MiddleName",0,*,"",""
+"ViralHepatitisModel.LastName","ViralHepatitisModel.LastName","","","",1,1,"","","","HumanName {[]} {[]}
+","Last Name","Last Name of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.LastName",1,1,"",""
+"ViralHepatitisModel.Suffix","ViralHepatitisModel.Suffix","","","",0,*,"","","","HumanName {[]} {[]}
+","Suffix","Suffix of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.Suffix",0,*,"",""
+"ViralHepatitisModel.UniqueIdentifierCode","ViralHepatitisModel.UniqueIdentifierCode","","","",1,1,"","","","id {[]} {[]}
+","Unique Identifier Code for the patient","First two letters of mother's name, First two letters of father's name, birth order, and Birthdate (MM/FF/BO/MM/DD/YYYY)","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.UniqueIdentifierCode",1,1,"",""
+"ViralHepatitisModel.UniqueIdentifierCode.FirstTwoLetterOfMothersName","ViralHepatitisModel.UniqueIdentifierCode.FirstTwoLetterOfMothersName","","","",1,1,"","","","id {[]} {[]}
+","First two letters of mother's name","Format - AA/XX/XX/XX/XX/XXXX","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.UniqueIdentifierCode.FirstTwoLetterOfMothersName",1,1,"",""
+"ViralHepatitisModel.UniqueIdentifierCode.FirstTwoLetterOfFathersName","ViralHepatitisModel.UniqueIdentifierCode.FirstTwoLetterOfFathersName","","","",1,1,"","","","id {[]} {[]}
+","First two letters of father's name","Format - XX/AA/XX/XX/XX/XXXX","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.UniqueIdentifierCode.FirstTwoLetterOfFathersName",1,1,"",""
+"ViralHepatitisModel.UniqueIdentifierCode.BirthOrder","ViralHepatitisModel.UniqueIdentifierCode.BirthOrder","","","",1,1,"","","","integer {[]} {[]}
+","Birth Order","Format - XX/XX/##/XX/XX/XXXX","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.UniqueIdentifierCode.BirthOrder",1,1,"",""
+"ViralHepatitisModel.UniqueIdentifierCode.BirthDate","ViralHepatitisModel.UniqueIdentifierCode.BirthDate","","","",1,1,"","","","date {[]} {[]}
+","Birth Date","Format - XX/XX/XX/MM/DD/YYYY","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.UniqueIdentifierCode.BirthDate",1,1,"",""
+"ViralHepatitisModel.SexAssignedAtBirth","ViralHepatitisModel.SexAssignedAtBirth","","","",0,1,"","","","code {[]} {[]}
+","Sex Assigned at Birth","Sex Assigned at Birth","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SexAssignedAtBirth",0,1,"",""
+"ViralHepatitisModel.SelfIdentity","ViralHepatitisModel.SelfIdentity","","","",0,1,"","","","code {[]} {[]}
+","Patient Self Identity","Patient Self Identity","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SelfIdentity",0,1,"",""
+"ViralHepatitisModel.PregnancyStatus","ViralHepatitisModel.PregnancyStatus","","","",0,*,"","","","code {[]} {[]}
+","If female, is she pregnant?","If female, is she pregnant?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PregnancyStatus",0,*,"",""
+"ViralHepatitisModel.PregnancyStatus.PregnancyStatus","ViralHepatitisModel.PregnancyStatus.PregnancyStatus","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","If female, is she pregnant?","If female, is she pregnant?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PregnancyStatus.PregnancyStatus",0,*,"",""
+"ViralHepatitisModel.NumberOfChildren","ViralHepatitisModel.NumberOfChildren","","","",0,*,"","","","integer {[]} {[]}
+","Number of Children","Number of Children","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.NumberOfChildren",0,*,"",""
+"ViralHepatitisModel.CivilStatus","ViralHepatitisModel.CivilStatus","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Civil Status","Civil Status","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.CivilStatus",0,*,"",""
+"ViralHepatitisModel.Nationality","ViralHepatitisModel.Nationality","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Nationality","Nationality","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.Nationality",0,*,"",""
+"ViralHepatitisModel.AgeInYears","ViralHepatitisModel.AgeInYears","","","",1,1,"","","","Age {[]} {[]}
+","Age of Patient in Years","Age of Patient in Years","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.AgeInYears",1,1,"",""
+"ViralHepatitisModel.PhilHealthNo","ViralHepatitisModel.PhilHealthNo","","","",1,1,"","","","Identifier {[]} {[]}
+","PhilHealth Number of the Patient","PhilHealth Number of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PhilHealthNo",1,1,"",""
+"ViralHepatitisModel.CurrentAddress","ViralHepatitisModel.CurrentAddress","","","",1,*,"","","","Address {[]} {[]}
+","Current Address of the Patient","Current Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.CurrentAddress",1,*,"",""
+"ViralHepatitisModel.CurrentAddress.CurrentAddressCityMunicipality","ViralHepatitisModel.CurrentAddress.CurrentAddressCityMunicipality","","","",1,*,"","","","Address {[]} {[]}
+","Current City/Municipality Address of the Patient","Current City/Municipality Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.CurrentAddress.CurrentAddressCityMunicipality",1,*,"",""
+"ViralHepatitisModel.CurrentAddress.CurrentAddressProvince","ViralHepatitisModel.CurrentAddress.CurrentAddressProvince","","","",1,*,"","","","Address {[]} {[]}
+","Current Province Address of the Patient","Current Province Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.CurrentAddress.CurrentAddressProvince",1,*,"",""
+"ViralHepatitisModel.CurrentAddress.CurrentAddressRegion","ViralHepatitisModel.CurrentAddress.CurrentAddressRegion","","","",1,*,"","","","Address {[]} {[]}
+","Current Region Address of the Patient","Current Region Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.CurrentAddress.CurrentAddressRegion",1,*,"",""
+"ViralHepatitisModel.PermanentAddress","ViralHepatitisModel.PermanentAddress","","","",1,*,"","","","Address {[]} {[]}
+","Permanent Address of the Patient","Permanent Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PermanentAddress",1,*,"",""
+"ViralHepatitisModel.PermanentAddress.PermanentAddressCityMunicipality","ViralHepatitisModel.PermanentAddress.PermanentAddressCityMunicipality","","","",1,*,"","","","Address {[]} {[]}
+","Permanent City/Municipality Address of the Patient","Permanent City/Municipality Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PermanentAddress.PermanentAddressCityMunicipality",1,*,"",""
+"ViralHepatitisModel.PermanentAddress.PermanentAddressProvince","ViralHepatitisModel.PermanentAddress.PermanentAddressProvince","","","",1,*,"","","","Address {[]} {[]}
+","Permanent Province Address of the Patient","Permanent Province Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PermanentAddress.PermanentAddressProvince",1,*,"",""
+"ViralHepatitisModel.PermanentAddress.PermanentAddressRegion","ViralHepatitisModel.PermanentAddress.PermanentAddressRegion","","","",1,*,"","","","Address {[]} {[]}
+","Permanent Region Address of the Patient","Permanent Region Address of the Patient","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.PermanentAddress.PermanentAddressRegion",1,*,"",""
+"ViralHepatitisModel.DidTheClientsMotherTestPositiveForHepatitisB","ViralHepatitisModel.DidTheClientsMotherTestPositiveForHepatitisB","","","",1,1,"","","","BackboneElement {[]} {[]}
+","History of Client's mother for Hepatitis B","Did the client's mother test positive for Hepatitis B?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DidTheClientsMotherTestPositiveForHepatitisB",1,1,"",""
+"ViralHepatitisModel.DidTheClientsMotherTestPositiveForHepatitisC","ViralHepatitisModel.DidTheClientsMotherTestPositiveForHepatitisC","","","",1,1,"","","","BackboneElement {[]} {[]}
+","History of Client's mother for Hepatitis C","Did the client's mother test positive for Hepatitis C?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DidTheClientsMotherTestPositiveForHepatitisC",1,1,"",""
+"ViralHepatitisModel.DidTheClientsSpouseOrPartnerTestPositiveForHepatitisB","ViralHepatitisModel.DidTheClientsSpouseOrPartnerTestPositiveForHepatitisB","","","",1,1,"","","","BackboneElement {[]} {[]}
+","History of Client's Spouse/Partner for Hepatitis B","Did the client's spouse/partner test positive for Hepatitis B?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DidTheClientsSpouseOrPartnerTestPositiveForHepatitisB",1,1,"",""
+"ViralHepatitisModel.DidTheClientsSpouseOrPartnerTestPositiveForHepatitisC","ViralHepatitisModel.DidTheClientsSpouseOrPartnerTestPositiveForHepatitisC","","","",1,1,"","","","BackboneElement {[]} {[]}
+","History of Client's Spouse/Partner for Hepatitis C","Did the client's spouse/partner test positive for Hepatitis C?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DidTheClientsSpouseOrPartnerTestPositiveForHepatitisC",1,1,"",""
+"ViralHepatitisModel.DoesTheClientHaveHistoryOfSharingNeedleAndOrSyringeWithOthers","ViralHepatitisModel.DoesTheClientHaveHistoryOfSharingNeedleAndOrSyringeWithOthers","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","History of client of using/sharing needle or syringe with others","Does the client have history of sharing needle and/or syringe with others?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHistoryOfSharingNeedleAndOrSyringeWithOthers",1,1,"",""
+"ViralHepatitisModel.DoesTheClientHaveHistoryOfInjectingDrugs","ViralHepatitisModel.DoesTheClientHaveHistoryOfInjectingDrugs","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Does the client have history of injecting drugs?","Does the client have history of injecting drugs?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHistoryOfInjectingDrugs",1,1,"",""
+"ViralHepatitisModel.HasTheClientBeenAccidentallyPrickedByObjectContaminatedWithBlood","ViralHepatitisModel.HasTheClientBeenAccidentallyPrickedByObjectContaminatedWithBlood","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Has the client been accidentally pricked by needles/sharps or other objects contaminated with blood?","Has the client been accidentally pricked by needles/sharps or other objects contaminated with blood?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.HasTheClientBeenAccidentallyPrickedByObjectContaminatedWithBlood",1,1,"",""
+"ViralHepatitisModel.DidTheClientReceiveATattoo","ViralHepatitisModel.DidTheClientReceiveATattoo","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Did the client receive a tattoo?","Did the client receive a tattoo?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DidTheClientReceiveATattoo",1,1,"",""
+"ViralHepatitisModel.WasThereAHistoryInThePastYearOfSexualIntercourseWithAMale","ViralHepatitisModel.WasThereAHistoryInThePastYearOfSexualIntercourseWithAMale","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Was there a history(past year) of sexual intercourse with a male?","Was there a history(past year) of sexual intercourse with a male?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.WasThereAHistoryInThePastYearOfSexualIntercourseWithAMale",1,1,"",""
+"ViralHepatitisModel.WasThereAHistoryInThePastYearOfSexualIntercourseWithAFemale","ViralHepatitisModel.WasThereAHistoryInThePastYearOfSexualIntercourseWithAFemale","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Was there a history(past year) of sexual intercourse with a female?","Was there a history(past year) of sexual intercourse with a female?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.WasThereAHistoryInThePastYearOfSexualIntercourseWithAFemale",1,1,"",""
+"ViralHepatitisModel.DoesTheClientPayInCashOrInKindForSex","ViralHepatitisModel.DoesTheClientPayInCashOrInKindForSex","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Does the client pay (in cash or in kind) for sex?","Does the client pay (in cash or in kind) for sex?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientPayInCashOrInKindForSex",1,1,"",""
+"ViralHepatitisModel.DoesTheClientAcceptPaymentInCashOrInKindInExchangeForSex","ViralHepatitisModel.DoesTheClientAcceptPaymentInCashOrInKindInExchangeForSex","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Does the client accept payment (in cash or in kind) in exchange for sex?","Does the client accept payment (in cash or in kind) in exchange for sex?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientAcceptPaymentInCashOrInKindInExchangeForSex",1,1,"",""
+"ViralHepatitisModel.WasThereAHistoryOfEmploymentAbroadInThePast","ViralHepatitisModel.WasThereAHistoryOfEmploymentAbroadInThePast","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Was there a history of employment abroad in the past?","Was there a history of employment abroad in the past?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.WasThereAHistoryOfEmploymentAbroadInThePast",1,1,"",""
+"ViralHepatitisModel.IsThereAFamilyHistoryOfHCCOrPrimaryLiverCancer","ViralHepatitisModel.IsThereAFamilyHistoryOfHCCOrPrimaryLiverCancer","","","",1,1,"","","","BackboneElement {[]} {[]}
+","History of Client's family on Hepatocellular Carcinoma (HCC)/Primary Liver Cancer","Is there a family history of Hepatocellular Carcinoma (HCC)/primary liver cancer?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.IsThereAFamilyHistoryOfHCCOrPrimaryLiverCancer",1,1,"",""
+"ViralHepatitisModel.DoesTheClientHaveHCCPriorToHepatitisBAndOrHepatitisCDiagnosis","ViralHepatitisModel.DoesTheClientHaveHCCPriorToHepatitisBAndOrHepatitisCDiagnosis","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Client's History of having Hepatocellular Carcinoma","Does the client have hepatocellular carcinoma prior to Hepatitis B and/or Hepatitis C diagnosis?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHCCPriorToHepatitisBAndOrHepatitisCDiagnosis",1,1,"",""
+"ViralHepatitisModel.DoesTheClientHaveHistoryOfReceivingBloodOrBloodProducts","ViralHepatitisModel.DoesTheClientHaveHistoryOfReceivingBloodOrBloodProducts","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Client's History of Receiving Blood or Blood Products","Does the client have history of receiving blood/blood products?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHistoryOfReceivingBloodOrBloodProducts",1,1,"",""
+"ViralHepatitisModel.DoesTheClientHaveHistoryOfUndergoingHemodialysis","ViralHepatitisModel.DoesTheClientHaveHistoryOfUndergoingHemodialysis","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Client's History of undergoing hemodialysis","Does the client have history of undergoing hemodialysis?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHistoryOfUndergoingHemodialysis",1,1,"",""
+"ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisA","ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisA","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Client's History of Being Vaccinated for Hepatitis A","Was there a history of being vaccinated for Hepatitis A?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisA",1,1,"",""
+"ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisB","ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisB","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Client's History of Being Vaccinated for Hepatitis B","Was there a history of being vaccinated for Hepatitis B?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisB",1,1,"",""
+"ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment","ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Client's History of Undergoing HIV Treatment Prior to Enrollment","Does the client have history of HIV treatment prior to enrollment?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment",1,1,"",""
