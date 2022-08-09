@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/POC1.1> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "POC1.1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition \"POC1.1\" </p></div><p><b>identifier</b>: id: 1-1</p><p><b>code</b>: Hepatitis B surface antigen positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (www.snomed.org#165806002)</span></p><p><b>subject</b>: <a href=\"Patient/POC1\">Patient/POC1</a></p><p><b>encounter</b>: <a href=\"Encounter/POC1\">Encounter/POC1</a></p><p><b>onset</b>: 2022-04-26</p></div>"
+  ];
+  fhir:Condition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://jv.com/fhir/NamingSystem/condition-id" ];
+     fhir:Identifier.value [ fhir:value "1-1" ]
+  ];
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://www.snomed.org" ];
+       fhir:Coding.code [ fhir:value "165806002" ];
+       fhir:Coding.display [ fhir:value "Hepatitis B surface antigen positive" ]
+     ]
+  ];
+  fhir:Condition.subject [
+     fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Patient/POC1>;
+     fhir:Reference.reference [ fhir:value "Patient/POC1" ]
+  ];
+  fhir:Condition.encounter [
+     fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Encounter/POC1>;
+     fhir:Reference.reference [ fhir:value "Encounter/POC1" ]
+  ];
+  fhir:Condition.onsetDateTime [ fhir:value "2022-04-26"^^xsd:date] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/POC1.1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

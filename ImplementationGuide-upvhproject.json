@@ -11,7 +11,7 @@
   "title": "UP Manila Viral Hepatitis Project Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-08-09T07:13:13+00:00",
+  "date": "2022-08-09T08:35:22+00:00",
   "publisher": "University of the Philippines Manila",
   "contact": [
     {
@@ -376,6 +376,17 @@
       }
     ],
     "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/POC1.1"
+        }
+      },
       {
         "extension": [
           {
