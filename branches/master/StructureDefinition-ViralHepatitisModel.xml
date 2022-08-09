@@ -60,7 +60,22 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.DoesTheClientHaveHistoryOfUndergoingHemodialysis" title="Does the client have history of undergoing hemodialysis?">DoesTheClientHaveHistoryOfUndergoingHemodialysis</a><a name="ViralHepatitisModel.DoesTheClientHaveHistoryOfUndergoingHemodialysis"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Client's History of undergoing hemodialysis</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisA" title="Was there a history of being vaccinated for Hepatitis A?">WasThereAHistoryOfBeingVaccinatedForHepatitisA</a><a name="ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisA"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Client's History of Being Vaccinated for Hepatitis A</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisB" title="Was there a history of being vaccinated for Hepatitis B?">WasThereAHistoryOfBeingVaccinatedForHepatitisB</a><a name="ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisB"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Client's History of Being Vaccinated for Hepatitis B</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment" title="Does the client have history of HIV treatment prior to enrollment?">DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment</a><a name="ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Client's History of Undergoing HIV Treatment Prior to Enrollment</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment" title="Does the client have history of HIV treatment prior to enrollment?">DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment</a><a name="ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Client's History of Undergoing HIV Treatment Prior to Enrollment</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms" title="List of Patient Signs and Symptoms">SignsAndSymptoms</a><a name="ViralHepatitisModel.SignsAndSymptoms"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">List of Patient Signs and Symptoms</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.WeightInKg" title="What is the weigh of the patient in kg?">WeightInKg</a><a name="ViralHepatitisModel.SignsAndSymptoms.WeightInKg"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient weight in kg</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.HeightInCM" title="What is the height of the patient in cm?">HeightInCM</a><a name="ViralHepatitisModel.SignsAndSymptoms.HeightInCM"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient heigh in CM</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Jaundice" title="Does the patient show signs and symptoms of Jaundice?">Jaundice</a><a name="ViralHepatitisModel.SignsAndSymptoms.Jaundice"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Jaundice</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Coagulopathy" title="Does the patient show signs and symptoms of Coagulopathy?">Coagulopathy</a><a name="ViralHepatitisModel.SignsAndSymptoms.Coagulopathy"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Coagulopathy</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Ascites" title="Does the patient show signs and symptoms of Ascites?">Ascites</a><a name="ViralHepatitisModel.SignsAndSymptoms.Ascites"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Ascites</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage" title="Does the patient show signs and symptoms of Variceal Hemorrhage?">VaricealHemorrhage</a><a name="ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Variceal Hemorrhage</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy" title="Does the patient show signs and symptoms of Hepatic Encephalopathy?">HepaticEncephalopathy</a><a name="ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Hepatic Encephalopathy</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly" title="Does the patient show signs and symptoms of Hepatomegaly?">Hepatomegaly</a><a name="ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Hepatomegaly</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Splenomegaly" title="Does the patient show signs and symptoms of Splenomegaly?">Splenomegaly</a><a name="ViralHepatitisModel.SignsAndSymptoms.Splenomegaly"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Splenomegaly</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Pruritus" title="Does the patient show signs and symptoms of Pruritus?">Pruritus</a><a name="ViralHepatitisModel.SignsAndSymptoms.Pruritus"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Pruritus</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Fatigue" title="Does the patient show signs and symptoms of Fatigue?">Fatigue</a><a name="ViralHepatitisModel.SignsAndSymptoms.Fatigue"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Fatigue</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata" title="Does the patient show signs and symptoms of Spider Angiomata?">SpiderAngiomata</a><a name="ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of  Spider Angiomata</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.PalmarErythema" title="Does the patient show signs and symptoms of Palmar Erythema?">PalmarErythema</a><a name="ViralHepatitisModel.SignsAndSymptoms.PalmarErythema"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Signs and symptoms of Palmar Erythema</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-ViralHepatitisModel-definitions.html#ViralHepatitisModel.SignsAndSymptoms.Other" title="Does the patient show other signs and symptoms not included in the list?">Other</a><a name="ViralHepatitisModel.SignsAndSymptoms.Other"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Other signs and symptoms</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://example.com/fhir/example/StructureDefinition/ViralHepatitisModel"/>
@@ -68,7 +83,7 @@
   <name value="ViralHepatitisModel"/>
   <title value="Viral Hepatitis Logical Model"/>
   <status value="active"/>
-  <date value="2022-08-08T09:24:39+00:00"/>
+  <date value="2022-08-09T07:13:13+00:00"/>
   <publisher value="University of the Philippines Manila"/>
   <contact>
     <telecom>
@@ -963,6 +978,231 @@
         <code value="CodeableConcept"/>
       </type>
     </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms">
+      <path value="ViralHepatitisModel.SignsAndSymptoms"/>
+      <short value="List of Patient Signs and Symptoms"/>
+      <definition value="List of Patient Signs and Symptoms"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.WeightInKg">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.WeightInKg"/>
+      <short value="Patient weight in kg"/>
+      <definition value="What is the weigh of the patient in kg?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.WeightInKg"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.HeightInCM">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.HeightInCM"/>
+      <short value="Patient heigh in CM"/>
+      <definition value="What is the height of the patient in cm?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.HeightInCM"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Jaundice">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Jaundice"/>
+      <short value="Signs and symptoms of Jaundice"/>
+      <definition value="Does the patient show signs and symptoms of Jaundice?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Jaundice"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Coagulopathy">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Coagulopathy"/>
+      <short value="Signs and symptoms of Coagulopathy"/>
+      <definition value="Does the patient show signs and symptoms of Coagulopathy?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Coagulopathy"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Ascites">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Ascites"/>
+      <short value="Signs and symptoms of Ascites"/>
+      <definition value="Does the patient show signs and symptoms of Ascites?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Ascites"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage"/>
+      <short value="Signs and symptoms of Variceal Hemorrhage"/>
+      <definition value="Does the patient show signs and symptoms of Variceal Hemorrhage?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy"/>
+      <short value="Signs and symptoms of Hepatic Encephalopathy"/>
+      <definition value="Does the patient show signs and symptoms of Hepatic Encephalopathy?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly"/>
+      <short value="Signs and symptoms of Hepatomegaly"/>
+      <definition value="Does the patient show signs and symptoms of Hepatomegaly?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Splenomegaly">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Splenomegaly"/>
+      <short value="Signs and symptoms of Splenomegaly"/>
+      <definition value="Does the patient show signs and symptoms of Splenomegaly?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Splenomegaly"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Pruritus">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Pruritus"/>
+      <short value="Signs and symptoms of Pruritus"/>
+      <definition value="Does the patient show signs and symptoms of Pruritus?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Pruritus"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Fatigue">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Fatigue"/>
+      <short value="Signs and symptoms of Fatigue"/>
+      <definition value="Does the patient show signs and symptoms of Fatigue?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Fatigue"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata"/>
+      <short value="Signs and symptoms of  Spider Angiomata"/>
+      <definition value="Does the patient show signs and symptoms of Spider Angiomata?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.PalmarErythema">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.PalmarErythema"/>
+      <short value="Signs and symptoms of Palmar Erythema"/>
+      <definition value="Does the patient show signs and symptoms of Palmar Erythema?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.PalmarErythema"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Other">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Other"/>
+      <short value="Other signs and symptoms"/>
+      <definition value="Does the patient show other signs and symptoms not included in the list?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ViralHepatitisModel.SignsAndSymptoms.Other"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
   </snapshot>
   <differential>
     <element id="ViralHepatitisModel">
@@ -1534,6 +1774,156 @@
       <path value="ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment"/>
       <short value="Client's History of Undergoing HIV Treatment Prior to Enrollment"/>
       <definition value="Does the client have history of HIV treatment prior to enrollment?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms">
+      <path value="ViralHepatitisModel.SignsAndSymptoms"/>
+      <short value="List of Patient Signs and Symptoms"/>
+      <definition value="List of Patient Signs and Symptoms"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.WeightInKg">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.WeightInKg"/>
+      <short value="Patient weight in kg"/>
+      <definition value="What is the weigh of the patient in kg?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.HeightInCM">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.HeightInCM"/>
+      <short value="Patient heigh in CM"/>
+      <definition value="What is the height of the patient in cm?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Jaundice">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Jaundice"/>
+      <short value="Signs and symptoms of Jaundice"/>
+      <definition value="Does the patient show signs and symptoms of Jaundice?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Coagulopathy">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Coagulopathy"/>
+      <short value="Signs and symptoms of Coagulopathy"/>
+      <definition value="Does the patient show signs and symptoms of Coagulopathy?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Ascites">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Ascites"/>
+      <short value="Signs and symptoms of Ascites"/>
+      <definition value="Does the patient show signs and symptoms of Ascites?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage"/>
+      <short value="Signs and symptoms of Variceal Hemorrhage"/>
+      <definition value="Does the patient show signs and symptoms of Variceal Hemorrhage?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy"/>
+      <short value="Signs and symptoms of Hepatic Encephalopathy"/>
+      <definition value="Does the patient show signs and symptoms of Hepatic Encephalopathy?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly"/>
+      <short value="Signs and symptoms of Hepatomegaly"/>
+      <definition value="Does the patient show signs and symptoms of Hepatomegaly?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Splenomegaly">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Splenomegaly"/>
+      <short value="Signs and symptoms of Splenomegaly"/>
+      <definition value="Does the patient show signs and symptoms of Splenomegaly?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Pruritus">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Pruritus"/>
+      <short value="Signs and symptoms of Pruritus"/>
+      <definition value="Does the patient show signs and symptoms of Pruritus?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Fatigue">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Fatigue"/>
+      <short value="Signs and symptoms of Fatigue"/>
+      <definition value="Does the patient show signs and symptoms of Fatigue?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata"/>
+      <short value="Signs and symptoms of  Spider Angiomata"/>
+      <definition value="Does the patient show signs and symptoms of Spider Angiomata?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.PalmarErythema">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.PalmarErythema"/>
+      <short value="Signs and symptoms of Palmar Erythema"/>
+      <definition value="Does the patient show signs and symptoms of Palmar Erythema?"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="ViralHepatitisModel.SignsAndSymptoms.Other">
+      <path value="ViralHepatitisModel.SignsAndSymptoms.Other"/>
+      <short value="Other signs and symptoms"/>
+      <definition value="Does the patient show other signs and symptoms not included in the list?"/>
       <min value="1"/>
       <max value="1"/>
       <type>
