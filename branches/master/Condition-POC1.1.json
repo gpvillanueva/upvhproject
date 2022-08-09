@@ -1,0 +1,30 @@
+{
+  "resourceType": "Condition",
+  "id": "POC1.1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition \"POC1.1\" </p></div><p><b>identifier</b>: id: 1-1</p><p><b>code</b>: Hepatitis B surface antigen positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (www.snomed.org#165806002)</span></p><p><b>subject</b>: <a href=\"Patient/POC1\">Patient/POC1</a></p><p><b>encounter</b>: <a href=\"Encounter/POC1\">Encounter/POC1</a></p><p><b>onset</b>: 2022-04-26</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://jv.com/fhir/NamingSystem/condition-id",
+      "value": "1-1"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.snomed.org",
+        "code": "165806002",
+        "display": "Hepatitis B surface antigen positive"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/POC1"
+  },
+  "encounter": {
+    "reference": "Encounter/POC1"
+  },
+  "onsetDateTime": "2022-04-26"
+}
