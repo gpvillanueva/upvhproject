@@ -114,3 +114,33 @@
 ","Client's History of Being Vaccinated for Hepatitis B","Was there a history of being vaccinated for Hepatitis B?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.WasThereAHistoryOfBeingVaccinatedForHepatitisB",1,1,"",""
 "ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment","ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Client's History of Undergoing HIV Treatment Prior to Enrollment","Does the client have history of HIV treatment prior to enrollment?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms","ViralHepatitisModel.SignsAndSymptoms","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","List of Patient Signs and Symptoms","List of Patient Signs and Symptoms","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.WeightInKg","ViralHepatitisModel.SignsAndSymptoms.WeightInKg","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Patient weight in kg","What is the weigh of the patient in kg?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.WeightInKg",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.HeightInCM","ViralHepatitisModel.SignsAndSymptoms.HeightInCM","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Patient heigh in CM","What is the height of the patient in cm?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.HeightInCM",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Jaundice","ViralHepatitisModel.SignsAndSymptoms.Jaundice","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Jaundice","Does the patient show signs and symptoms of Jaundice?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Jaundice",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Coagulopathy","ViralHepatitisModel.SignsAndSymptoms.Coagulopathy","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Coagulopathy","Does the patient show signs and symptoms of Coagulopathy?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Coagulopathy",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Ascites","ViralHepatitisModel.SignsAndSymptoms.Ascites","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Ascites","Does the patient show signs and symptoms of Ascites?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Ascites",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage","ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Variceal Hemorrhage","Does the patient show signs and symptoms of Variceal Hemorrhage?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.VaricealHemorrhage",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy","ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Hepatic Encephalopathy","Does the patient show signs and symptoms of Hepatic Encephalopathy?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.HepaticEncephalopathy",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly","ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Hepatomegaly","Does the patient show signs and symptoms of Hepatomegaly?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Hepatomegaly",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Splenomegaly","ViralHepatitisModel.SignsAndSymptoms.Splenomegaly","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Splenomegaly","Does the patient show signs and symptoms of Splenomegaly?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Splenomegaly",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Pruritus","ViralHepatitisModel.SignsAndSymptoms.Pruritus","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Pruritus","Does the patient show signs and symptoms of Pruritus?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Pruritus",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Fatigue","ViralHepatitisModel.SignsAndSymptoms.Fatigue","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Fatigue","Does the patient show signs and symptoms of Fatigue?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Fatigue",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata","ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of  Spider Angiomata","Does the patient show signs and symptoms of Spider Angiomata?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.SpiderAngiomata",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.PalmarErythema","ViralHepatitisModel.SignsAndSymptoms.PalmarErythema","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Signs and symptoms of Palmar Erythema","Does the patient show signs and symptoms of Palmar Erythema?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.PalmarErythema",1,1,"",""
+"ViralHepatitisModel.SignsAndSymptoms.Other","ViralHepatitisModel.SignsAndSymptoms.Other","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Other signs and symptoms","Does the patient show other signs and symptoms not included in the list?","","","","","","","","","",,,,,"",,,,"ViralHepatitisModel.SignsAndSymptoms.Other",1,1,"",""
