@@ -1,0 +1,1813 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ViralHepatitisCareFormModel",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel\" title=\"Viral Hepatitis Care Form Information model\">ViralHepatitisCareFormModel</a><a name=\"ViralHepatitisCareFormModel\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Viral Hepatitis Care Form Logical Model</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.ConsultDate\" title=\"Consult Date (MM/DD/YYYY)\">ConsultDate</a><a name=\"ViralHepatitisCareFormModel.ConsultDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Consult Date (MM/DD/YYYY)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.PatientCode\" title=\"Patient Identifier\">PatientCode</a><a name=\"ViralHepatitisCareFormModel.PatientCode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient Code</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.FacilityName\" title=\"The location where the encounter takes place.\">FacilityName</a><a name=\"ViralHepatitisCareFormModel.FacilityName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Testing Facility Name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.UniqueIdentifierCode\" title=\"First two letters of mother's name, First two letters of father's name, birth order, and Birthdate (MM/FF/BO/MM/DD/YYYY)\">UniqueIdentifierCode</a><a name=\"ViralHepatitisCareFormModel.UniqueIdentifierCode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#id\">id</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Unique Identifier Code for the patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.TestedPositiveFor\" title=\"If patient tested positive for Hepatitis B and/or Hepatitis C\">TestedPositiveFor</a><a name=\"ViralHepatitisCareFormModel.TestedPositiveFor\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">If patient tested positive for Hepatitis B and/or Hepatitis C</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB\" title=\"If patient tested positive for Hepatitis B\">TestedPositiveForHepatitisB</a><a name=\"ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">If patient tested positive for Hepatitis B</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC\" title=\"If patient tested positive for Hepatitis C\">TestedPositiveForHepatitisC</a><a name=\"ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">If patient tested positive for Hepatitis C</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.FirstName\" title=\"First Name of the Patient\">FirstName</a><a name=\"ViralHepatitisCareFormModel.FirstName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">First Name<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.MiddleName\" title=\"Middle Name of the Patient\">MiddleName</a><a name=\"ViralHepatitisCareFormModel.MiddleName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Middle Name<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LastName\" title=\"Last Name of the Patient\">LastName</a><a name=\"ViralHepatitisCareFormModel.LastName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Last Name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.Suffix\" title=\"Suffix of the Patient\">Suffix</a><a name=\"ViralHepatitisCareFormModel.Suffix\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Suffix<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SexAssignedAtBirth\" title=\"Sex Assigned at Birth\">SexAssignedAtBirth</a><a name=\"ViralHepatitisCareFormModel.SexAssignedAtBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sex Assigned at Birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.AgeInYears\" title=\"Age of Patient in Years\">AgeInYears</a><a name=\"ViralHepatitisCareFormModel.AgeInYears\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Age\">Age</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Age of Patient in Years</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.WeightInKg\" title=\"What is the weigh of the patient in kg?\">WeightInKg</a><a name=\"ViralHepatitisCareFormModel.WeightInKg\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient weight in kg</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.HeightInCM\" title=\"What is the height of the patient in cm?\">HeightInCM</a><a name=\"ViralHepatitisCareFormModel.HeightInCM\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient heigh in CM</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.IsShePregnant\" title=\"If female, is she pregnant?\">IsShePregnant</a><a name=\"ViralHepatitisCareFormModel.IsShePregnant\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">If female, is she pregnant?<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant\" title=\"If female, is she pregnant?\">IsShePregnant</a><a name=\"ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">If female, is she pregnant?<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.Nationality\" title=\"Nationality\">Nationality</a><a name=\"ViralHepatitisCareFormModel.Nationality\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Nationality<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms\" title=\"List of Patient Signs and Symptoms\">SignsAndSymptoms</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">List of Patient Signs and Symptoms</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice\" title=\"Does the patient show signs and symptoms of Jaundice?\">Jaundice</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Jaundice</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy\" title=\"Does the patient show signs and symptoms of Coagulopathy?\">Coagulopathy</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Coagulopathy</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites\" title=\"Does the patient show signs and symptoms of Ascites?\">Ascites</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Ascites</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage\" title=\"Does the patient show signs and symptoms of Variceal Hemorrhage?\">VaricealHemorrhage</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Variceal Hemorrhage</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy\" title=\"Does the patient show signs and symptoms of Hepatic Encephalopathy?\">HepaticEncephalopathy</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Hepatic Encephalopathy</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly\" title=\"Does the patient show signs and symptoms of Hepatomegaly?\">Hepatomegaly</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Hepatomegaly</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly\" title=\"Does the patient show signs and symptoms of Splenomegaly?\">Splenomegaly</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Splenomegaly</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus\" title=\"Does the patient show signs and symptoms of Pruritus?\">Pruritus</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Pruritus</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue\" title=\"Does the patient show signs and symptoms of Fatigue?\">Fatigue</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Fatigue</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata\" title=\"Does the patient show signs and symptoms of Spider Angiomata?\">SpiderAngiomata</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of  Spider Angiomata</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema\" title=\"Does the patient show signs and symptoms of Palmar Erythema?\">PalmarErythema</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Signs and symptoms of Palmar Erythema</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.SignsAndSymptoms.Other\" title=\"Does the patient show other signs and symptoms not included in the list?\">Other</a><a name=\"ViralHepatitisCareFormModel.SignsAndSymptoms.Other\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Other signs and symptoms</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest\" title=\"List of Laboratory Test of the Patient\">LaboratoryTest</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">List of Laboratory Test of the Patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone\" title=\"Date when the HBsAG Test was done\">HBsAgDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the HBsAG Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult\" title=\"HBsAG Test Result (Positive or Negative)\">HBsAgResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HBsAG Test Result (Positive or Negative)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone\" title=\"Date when the HBeAG Test was done\">HBeAgDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the HBeAG Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult\" title=\"HBeAg Test Result (Positive or Negative)\">HBeAgResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HBeAg Test Result (Positive or Negative)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone\" title=\"Date when the Anti-HCV Test was done\">AntiHCVDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the Anti-HCV Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult\" title=\"AntiHCV Test Result (Reactive or Non-reactive)\">AntiHCVResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">AntiHCV Test Result (Reactive or Non-reactive)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone\" title=\"Date when the HCV-RNA (Quali) Test was done\">HCVRNAQualitativeDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the HCV-RNA (Quali) Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult\" title=\"HCV-RNA (Quali) Test Result (Positive or Negative)\">HCVRNAQualitativeResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HCV-RNA (Quali) Test Result (Positive or Negative)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone\" title=\"Date when the HCV-RNA (Quanti) IU/mL Test was done\">HCVRNAQuantitativeDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the HCV-RNA (Quanti) IU/mL Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult\" title=\"HCV-RNA (Quali) Test Result (IU/mL)\">HCVRNAQuantitativeResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HCV-RNA (Quali) Test Result (IU/mL)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone\" title=\"Date when the HBV DNA (IU/mL) Test was done\">HBVDNADateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the HBV DNA (IU/mL) Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult\" title=\" HBV DNA Test Result (IU/mL)\">HBVDNAResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"> HBV DNA Test Result (IU/mL)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone\" title=\"Date when the AST (SGOT) (IU/L) Test was done\">ASTSGOTDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the AST (SGOT) (IU/L) Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult\" title=\"AST (SGOT) Test Result (IU/L)\">ASTSGOTResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">AST (SGOT) Test Result (IU/L)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone\" title=\"Date when the ALT (SGPT) (IU/L) Test was done\">ALTSGPTDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the ALT (SGPT) (IU/L) Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult\" title=\"ALT (SGPT) Test Result (IU/L) \">ALTSGPTResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">ALT (SGPT) Test Result (IU/L) </td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone\" title=\"Date when the Total Bilirubin (mg/dL) Test was done\">TotalBilirubinDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the Total Bilirubin (mg/dL) Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult\" title=\"Total Bilirubin Test Result (mg/dL)\">TotalBilirubinResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Total Bilirubin Test Result (mg/dL)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone\" title=\"Date when the Albumin Test was done\">AlbuminDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the Albumin Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult\" title=\"Albumin Test Result (g/dL)\">AlbuminResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Albumin Test Result (g/dL)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone\" title=\"Date when the Platelet Count Test was done\">PlateletCountDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the Platelet Count Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult\" title=\"Platelet Count Test Result (10*9/L)\">PlateletCountResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Platelet Count Test Result (10*9/L)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone\" title=\"Date when the PT INR Test was done\">PTINRDateDone</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date when the PT INR Test was done</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ViralHepatitisCareFormModel-definitions.html#ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult\" title=\"PT INR Test Result (sec)\">PTINRResult</a><a name=\"ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">PT INR Test Result (sec)</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/StructureDefinition/ViralHepatitisCareFormModel",
+  "version": "0.1.0-test",
+  "name": "ViralHepatitisCareFormModel",
+  "title": "Viral Hepatitis Care Form Logical Model",
+  "status": "active",
+  "date": "2022-08-10T09:22:23+00:00",
+  "publisher": "University of the Philippines Manila",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ehealth4hepatitis.ph/"
+        }
+      ]
+    }
+  ],
+  "description": "Viral Hepatitis Care Form Information model",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://example.com/fhir/example/StructureDefinition/ViralHepatitisCareFormModel",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "ViralHepatitisCareFormModel",
+        "path": "ViralHepatitisCareFormModel",
+        "short": "Viral Hepatitis Care Form Logical Model",
+        "definition": "Viral Hepatitis Care Form Information model",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Base",
+          "min": 0,
+          "max": "*"
+        },
+        "isModifier": false
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.ConsultDate",
+        "path": "ViralHepatitisCareFormModel.ConsultDate",
+        "short": "Consult Date (MM/DD/YYYY)",
+        "definition": "Consult Date (MM/DD/YYYY)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.ConsultDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.PatientCode",
+        "path": "ViralHepatitisCareFormModel.PatientCode",
+        "short": "Patient Code",
+        "definition": "Patient Identifier",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.PatientCode",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.FacilityName",
+        "path": "ViralHepatitisCareFormModel.FacilityName",
+        "short": "Testing Facility Name",
+        "definition": "The location where the encounter takes place.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.FacilityName",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.UniqueIdentifierCode",
+        "path": "ViralHepatitisCareFormModel.UniqueIdentifierCode",
+        "short": "Unique Identifier Code for the patient",
+        "definition": "First two letters of mother's name, First two letters of father's name, birth order, and Birthdate (MM/FF/BO/MM/DD/YYYY)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.UniqueIdentifierCode",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "id"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.TestedPositiveFor",
+        "path": "ViralHepatitisCareFormModel.TestedPositiveFor",
+        "short": "If patient tested positive for Hepatitis B and/or Hepatitis C",
+        "definition": "If patient tested positive for Hepatitis B and/or Hepatitis C",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.TestedPositiveFor",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB",
+        "path": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB",
+        "short": "If patient tested positive for Hepatitis B",
+        "definition": "If patient tested positive for Hepatitis B",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC",
+        "path": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC",
+        "short": "If patient tested positive for Hepatitis C",
+        "definition": "If patient tested positive for Hepatitis C",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.FirstName",
+        "path": "ViralHepatitisCareFormModel.FirstName",
+        "short": "First Name",
+        "definition": "First Name of the Patient",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.FirstName",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.MiddleName",
+        "path": "ViralHepatitisCareFormModel.MiddleName",
+        "short": "Middle Name",
+        "definition": "Middle Name of the Patient",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.MiddleName",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LastName",
+        "path": "ViralHepatitisCareFormModel.LastName",
+        "short": "Last Name",
+        "definition": "Last Name of the Patient",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LastName",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.Suffix",
+        "path": "ViralHepatitisCareFormModel.Suffix",
+        "short": "Suffix",
+        "definition": "Suffix of the Patient",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.Suffix",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SexAssignedAtBirth",
+        "path": "ViralHepatitisCareFormModel.SexAssignedAtBirth",
+        "short": "Sex Assigned at Birth",
+        "definition": "Sex Assigned at Birth",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SexAssignedAtBirth",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.AgeInYears",
+        "path": "ViralHepatitisCareFormModel.AgeInYears",
+        "short": "Age of Patient in Years",
+        "definition": "Age of Patient in Years",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.AgeInYears",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Age"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.WeightInKg",
+        "path": "ViralHepatitisCareFormModel.WeightInKg",
+        "short": "Patient weight in kg",
+        "definition": "What is the weigh of the patient in kg?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.WeightInKg",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.HeightInCM",
+        "path": "ViralHepatitisCareFormModel.HeightInCM",
+        "short": "Patient heigh in CM",
+        "definition": "What is the height of the patient in cm?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.HeightInCM",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.IsShePregnant",
+        "path": "ViralHepatitisCareFormModel.IsShePregnant",
+        "short": "If female, is she pregnant?",
+        "definition": "If female, is she pregnant?",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.IsShePregnant",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant",
+        "path": "ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant",
+        "short": "If female, is she pregnant?",
+        "definition": "If female, is she pregnant?",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.Nationality",
+        "path": "ViralHepatitisCareFormModel.Nationality",
+        "short": "Nationality",
+        "definition": "Nationality",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.Nationality",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms",
+        "short": "List of Patient Signs and Symptoms",
+        "definition": "List of Patient Signs and Symptoms",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice",
+        "short": "Signs and symptoms of Jaundice",
+        "definition": "Does the patient show signs and symptoms of Jaundice?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy",
+        "short": "Signs and symptoms of Coagulopathy",
+        "definition": "Does the patient show signs and symptoms of Coagulopathy?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites",
+        "short": "Signs and symptoms of Ascites",
+        "definition": "Does the patient show signs and symptoms of Ascites?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage",
+        "short": "Signs and symptoms of Variceal Hemorrhage",
+        "definition": "Does the patient show signs and symptoms of Variceal Hemorrhage?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy",
+        "short": "Signs and symptoms of Hepatic Encephalopathy",
+        "definition": "Does the patient show signs and symptoms of Hepatic Encephalopathy?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly",
+        "short": "Signs and symptoms of Hepatomegaly",
+        "definition": "Does the patient show signs and symptoms of Hepatomegaly?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly",
+        "short": "Signs and symptoms of Splenomegaly",
+        "definition": "Does the patient show signs and symptoms of Splenomegaly?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus",
+        "short": "Signs and symptoms of Pruritus",
+        "definition": "Does the patient show signs and symptoms of Pruritus?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue",
+        "short": "Signs and symptoms of Fatigue",
+        "definition": "Does the patient show signs and symptoms of Fatigue?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata",
+        "short": "Signs and symptoms of  Spider Angiomata",
+        "definition": "Does the patient show signs and symptoms of Spider Angiomata?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema",
+        "short": "Signs and symptoms of Palmar Erythema",
+        "definition": "Does the patient show signs and symptoms of Palmar Erythema?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Other",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Other",
+        "short": "Other signs and symptoms",
+        "definition": "Does the patient show other signs and symptoms not included in the list?",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Other",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest",
+        "short": "List of Laboratory Test of the Patient",
+        "definition": "List of Laboratory Test of the Patient",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone",
+        "short": "Date when the HBsAG Test was done",
+        "definition": "Date when the HBsAG Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult",
+        "short": "HBsAG Test Result (Positive or Negative)",
+        "definition": "HBsAG Test Result (Positive or Negative)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone",
+        "short": "Date when the HBeAG Test was done",
+        "definition": "Date when the HBeAG Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult",
+        "short": "HBeAg Test Result (Positive or Negative)",
+        "definition": "HBeAg Test Result (Positive or Negative)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone",
+        "short": "Date when the Anti-HCV Test was done",
+        "definition": "Date when the Anti-HCV Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult",
+        "short": "AntiHCV Test Result (Reactive or Non-reactive)",
+        "definition": "AntiHCV Test Result (Reactive or Non-reactive)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone",
+        "short": "Date when the HCV-RNA (Quali) Test was done",
+        "definition": "Date when the HCV-RNA (Quali) Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult",
+        "short": "HCV-RNA (Quali) Test Result (Positive or Negative)",
+        "definition": "HCV-RNA (Quali) Test Result (Positive or Negative)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone",
+        "short": "Date when the HCV-RNA (Quanti) IU/mL Test was done",
+        "definition": "Date when the HCV-RNA (Quanti) IU/mL Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult",
+        "short": "HCV-RNA (Quali) Test Result (IU/mL)",
+        "definition": "HCV-RNA (Quali) Test Result (IU/mL)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone",
+        "short": "Date when the HBV DNA (IU/mL) Test was done",
+        "definition": "Date when the HBV DNA (IU/mL) Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult",
+        "short": " HBV DNA Test Result (IU/mL)",
+        "definition": " HBV DNA Test Result (IU/mL)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone",
+        "short": "Date when the AST (SGOT) (IU/L) Test was done",
+        "definition": "Date when the AST (SGOT) (IU/L) Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult",
+        "short": "AST (SGOT) Test Result (IU/L)",
+        "definition": "AST (SGOT) Test Result (IU/L)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone",
+        "short": "Date when the ALT (SGPT) (IU/L) Test was done",
+        "definition": "Date when the ALT (SGPT) (IU/L) Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult",
+        "short": "ALT (SGPT) Test Result (IU/L) ",
+        "definition": "ALT (SGPT) Test Result (IU/L) ",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone",
+        "short": "Date when the Total Bilirubin (mg/dL) Test was done",
+        "definition": "Date when the Total Bilirubin (mg/dL) Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult",
+        "short": "Total Bilirubin Test Result (mg/dL)",
+        "definition": "Total Bilirubin Test Result (mg/dL)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone",
+        "short": "Date when the Albumin Test was done",
+        "definition": "Date when the Albumin Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult",
+        "short": "Albumin Test Result (g/dL)",
+        "definition": "Albumin Test Result (g/dL)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone",
+        "short": "Date when the Platelet Count Test was done",
+        "definition": "Date when the Platelet Count Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult",
+        "short": "Platelet Count Test Result (10*9/L)",
+        "definition": "Platelet Count Test Result (10*9/L)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone",
+        "short": "Date when the PT INR Test was done",
+        "definition": "Date when the PT INR Test was done",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult",
+        "short": "PT INR Test Result (sec)",
+        "definition": "PT INR Test Result (sec)",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "ViralHepatitisCareFormModel",
+        "path": "ViralHepatitisCareFormModel",
+        "short": "Viral Hepatitis Care Form Logical Model",
+        "definition": "Viral Hepatitis Care Form Information model"
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.ConsultDate",
+        "path": "ViralHepatitisCareFormModel.ConsultDate",
+        "short": "Consult Date (MM/DD/YYYY)",
+        "definition": "Consult Date (MM/DD/YYYY)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.PatientCode",
+        "path": "ViralHepatitisCareFormModel.PatientCode",
+        "short": "Patient Code",
+        "definition": "Patient Identifier",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.FacilityName",
+        "path": "ViralHepatitisCareFormModel.FacilityName",
+        "short": "Testing Facility Name",
+        "definition": "The location where the encounter takes place.",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.UniqueIdentifierCode",
+        "path": "ViralHepatitisCareFormModel.UniqueIdentifierCode",
+        "short": "Unique Identifier Code for the patient",
+        "definition": "First two letters of mother's name, First two letters of father's name, birth order, and Birthdate (MM/FF/BO/MM/DD/YYYY)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "id"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.TestedPositiveFor",
+        "path": "ViralHepatitisCareFormModel.TestedPositiveFor",
+        "short": "If patient tested positive for Hepatitis B and/or Hepatitis C",
+        "definition": "If patient tested positive for Hepatitis B and/or Hepatitis C",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB",
+        "path": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisB",
+        "short": "If patient tested positive for Hepatitis B",
+        "definition": "If patient tested positive for Hepatitis B",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC",
+        "path": "ViralHepatitisCareFormModel.TestedPositiveFor.TestedPositiveForHepatitisC",
+        "short": "If patient tested positive for Hepatitis C",
+        "definition": "If patient tested positive for Hepatitis C",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.FirstName",
+        "path": "ViralHepatitisCareFormModel.FirstName",
+        "short": "First Name",
+        "definition": "First Name of the Patient",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.MiddleName",
+        "path": "ViralHepatitisCareFormModel.MiddleName",
+        "short": "Middle Name",
+        "definition": "Middle Name of the Patient",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LastName",
+        "path": "ViralHepatitisCareFormModel.LastName",
+        "short": "Last Name",
+        "definition": "Last Name of the Patient",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.Suffix",
+        "path": "ViralHepatitisCareFormModel.Suffix",
+        "short": "Suffix",
+        "definition": "Suffix of the Patient",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "HumanName"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SexAssignedAtBirth",
+        "path": "ViralHepatitisCareFormModel.SexAssignedAtBirth",
+        "short": "Sex Assigned at Birth",
+        "definition": "Sex Assigned at Birth",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.AgeInYears",
+        "path": "ViralHepatitisCareFormModel.AgeInYears",
+        "short": "Age of Patient in Years",
+        "definition": "Age of Patient in Years",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Age"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.WeightInKg",
+        "path": "ViralHepatitisCareFormModel.WeightInKg",
+        "short": "Patient weight in kg",
+        "definition": "What is the weigh of the patient in kg?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.HeightInCM",
+        "path": "ViralHepatitisCareFormModel.HeightInCM",
+        "short": "Patient heigh in CM",
+        "definition": "What is the height of the patient in cm?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.IsShePregnant",
+        "path": "ViralHepatitisCareFormModel.IsShePregnant",
+        "short": "If female, is she pregnant?",
+        "definition": "If female, is she pregnant?",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant",
+        "path": "ViralHepatitisCareFormModel.IsShePregnant.IsShePregnant",
+        "short": "If female, is she pregnant?",
+        "definition": "If female, is she pregnant?",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.Nationality",
+        "path": "ViralHepatitisCareFormModel.Nationality",
+        "short": "Nationality",
+        "definition": "Nationality",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms",
+        "short": "List of Patient Signs and Symptoms",
+        "definition": "List of Patient Signs and Symptoms",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Jaundice",
+        "short": "Signs and symptoms of Jaundice",
+        "definition": "Does the patient show signs and symptoms of Jaundice?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Coagulopathy",
+        "short": "Signs and symptoms of Coagulopathy",
+        "definition": "Does the patient show signs and symptoms of Coagulopathy?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Ascites",
+        "short": "Signs and symptoms of Ascites",
+        "definition": "Does the patient show signs and symptoms of Ascites?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.VaricealHemorrhage",
+        "short": "Signs and symptoms of Variceal Hemorrhage",
+        "definition": "Does the patient show signs and symptoms of Variceal Hemorrhage?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.HepaticEncephalopathy",
+        "short": "Signs and symptoms of Hepatic Encephalopathy",
+        "definition": "Does the patient show signs and symptoms of Hepatic Encephalopathy?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Hepatomegaly",
+        "short": "Signs and symptoms of Hepatomegaly",
+        "definition": "Does the patient show signs and symptoms of Hepatomegaly?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Splenomegaly",
+        "short": "Signs and symptoms of Splenomegaly",
+        "definition": "Does the patient show signs and symptoms of Splenomegaly?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Pruritus",
+        "short": "Signs and symptoms of Pruritus",
+        "definition": "Does the patient show signs and symptoms of Pruritus?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Fatigue",
+        "short": "Signs and symptoms of Fatigue",
+        "definition": "Does the patient show signs and symptoms of Fatigue?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.SpiderAngiomata",
+        "short": "Signs and symptoms of  Spider Angiomata",
+        "definition": "Does the patient show signs and symptoms of Spider Angiomata?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.PalmarErythema",
+        "short": "Signs and symptoms of Palmar Erythema",
+        "definition": "Does the patient show signs and symptoms of Palmar Erythema?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.SignsAndSymptoms.Other",
+        "path": "ViralHepatitisCareFormModel.SignsAndSymptoms.Other",
+        "short": "Other signs and symptoms",
+        "definition": "Does the patient show other signs and symptoms not included in the list?",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest",
+        "short": "List of Laboratory Test of the Patient",
+        "definition": "List of Laboratory Test of the Patient",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgDateDone",
+        "short": "Date when the HBsAG Test was done",
+        "definition": "Date when the HBsAG Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBsAgResult",
+        "short": "HBsAG Test Result (Positive or Negative)",
+        "definition": "HBsAG Test Result (Positive or Negative)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgDateDone",
+        "short": "Date when the HBeAG Test was done",
+        "definition": "Date when the HBeAG Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBeAgResult",
+        "short": "HBeAg Test Result (Positive or Negative)",
+        "definition": "HBeAg Test Result (Positive or Negative)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVDateDone",
+        "short": "Date when the Anti-HCV Test was done",
+        "definition": "Date when the Anti-HCV Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AntiHCVResult",
+        "short": "AntiHCV Test Result (Reactive or Non-reactive)",
+        "definition": "AntiHCV Test Result (Reactive or Non-reactive)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeDateDone",
+        "short": "Date when the HCV-RNA (Quali) Test was done",
+        "definition": "Date when the HCV-RNA (Quali) Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQualitativeResult",
+        "short": "HCV-RNA (Quali) Test Result (Positive or Negative)",
+        "definition": "HCV-RNA (Quali) Test Result (Positive or Negative)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeDateDone",
+        "short": "Date when the HCV-RNA (Quanti) IU/mL Test was done",
+        "definition": "Date when the HCV-RNA (Quanti) IU/mL Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HCVRNAQuantitativeResult",
+        "short": "HCV-RNA (Quali) Test Result (IU/mL)",
+        "definition": "HCV-RNA (Quali) Test Result (IU/mL)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNADateDone",
+        "short": "Date when the HBV DNA (IU/mL) Test was done",
+        "definition": "Date when the HBV DNA (IU/mL) Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.HBVDNAResult",
+        "short": " HBV DNA Test Result (IU/mL)",
+        "definition": " HBV DNA Test Result (IU/mL)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTDateDone",
+        "short": "Date when the AST (SGOT) (IU/L) Test was done",
+        "definition": "Date when the AST (SGOT) (IU/L) Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ASTSGOTResult",
+        "short": "AST (SGOT) Test Result (IU/L)",
+        "definition": "AST (SGOT) Test Result (IU/L)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTDateDone",
+        "short": "Date when the ALT (SGPT) (IU/L) Test was done",
+        "definition": "Date when the ALT (SGPT) (IU/L) Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.ALTSGPTResult",
+        "short": "ALT (SGPT) Test Result (IU/L) ",
+        "definition": "ALT (SGPT) Test Result (IU/L) ",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinDateDone",
+        "short": "Date when the Total Bilirubin (mg/dL) Test was done",
+        "definition": "Date when the Total Bilirubin (mg/dL) Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.TotalBilirubinResult",
+        "short": "Total Bilirubin Test Result (mg/dL)",
+        "definition": "Total Bilirubin Test Result (mg/dL)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminDateDone",
+        "short": "Date when the Albumin Test was done",
+        "definition": "Date when the Albumin Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.AlbuminResult",
+        "short": "Albumin Test Result (g/dL)",
+        "definition": "Albumin Test Result (g/dL)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountDateDone",
+        "short": "Date when the Platelet Count Test was done",
+        "definition": "Date when the Platelet Count Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PlateletCountResult",
+        "short": "Platelet Count Test Result (10*9/L)",
+        "definition": "Platelet Count Test Result (10*9/L)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRDateDone",
+        "short": "Date when the PT INR Test was done",
+        "definition": "Date when the PT INR Test was done",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult",
+        "path": "ViralHepatitisCareFormModel.LaboratoryTest.PTINRResult",
+        "short": "PT INR Test Result (sec)",
+        "definition": "PT INR Test Result (sec)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "FamilyMemberHistoryPOC1.3",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: FamilyMemberHistory</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource FamilyMemberHistory \"FamilyMemberHistoryPOC1.3\" </p></div><p><b>identifier</b>: id: 1-3</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient/POC1\">Patient/POC1</a></p><p><b>relationship</b>: family member <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (v3-RoleCode#FAMMEMB)</span></p><p><b>deceased</b>: false</p><h3>Conditions</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Liver cell carcinoma (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#109841003 \" Liver cell carcinoma (disorder)\")</span></td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://jv.com/fhir/NamingSystem/family-member-history-id",
+      "value": "1-3"
+    }
+  ],
+  "status": "completed",
+  "patient": {
+    "reference": "Patient/POC1"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "https://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "code": "FAMMEMB",
+        "display": "family member"
+      }
+    ]
+  },
+  "deceasedBoolean": false,
+  "condition": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "109841003",
+            "display": " Liver cell carcinoma (disorder)"
+          }
+        ],
+        "text": "Liver cell carcinoma (disorder)"
+      }
+    }
+  ]
+}

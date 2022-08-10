@@ -3,10 +3,10 @@
   "name": "upvhproject",
   "package-id": "upmanila.fhir.upvhproject",
   "ig-ver": "0.1.0-test",
-  "date": "Tue, 09 Aug, 2022 08:35:22 +0000",
-  "errs": 6,
-  "warnings": 202,
-  "hints": 1,
+  "date": "Wed, 10 Aug, 2022 09:22:23 +0000",
+  "errs": 27,
+  "warnings": 245,
+  "hints": 2,
   "version": "4.0.1",
   "tool": "5.0.0-snapshot2 (3)"
 }

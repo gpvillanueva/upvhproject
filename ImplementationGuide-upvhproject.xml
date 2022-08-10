@@ -12,7 +12,7 @@
   <title value="UP Manila Viral Hepatitis Project Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-08-09T08:35:22+00:00"/>
+  <date value="2022-08-10T09:22:23+00:00"/>
   <publisher value="University of the Philippines Manila"/>
   <contact>
     <telecom>
@@ -241,7 +241,55 @@
         <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Condition/POC1.1"/>
+        <reference value="Condition/ConditionPOC1.1"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="FamilyMemberHistory"/>
+      </extension>
+      <reference>
+        <reference value="FamilyMemberHistory/FamilyMemberHistoryPOC1.3"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/EncounterPOC1"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/ConditionPOC1.2"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ObservationPOC1.3"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ObservationPOC1.1"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ObservationPOC1.2"/>
       </reference>
     </resource>
     <resource>
@@ -249,10 +297,20 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ViralHepatitisModel"/>
+        <reference value="StructureDefinition/ViralHepatitisCaseReportFormModel"/>
       </reference>
-      <name value="Viral Hepatitis Logical Model"/>
-      <description value="Viral Hepatitis Information model"/>
+      <name value="Viral Hepatitis Case Report Form Logical Model"/>
+      <description value="Viral Hepatitis Case Report Form Logical Model"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ViralHepatitisCareFormModel"/>
+      </reference>
+      <name value="Viral Hepatitis Care Form Logical Model"/>
+      <description value="Viral Hepatitis Care Form Information model"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

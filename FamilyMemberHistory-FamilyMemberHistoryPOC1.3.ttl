@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehealth4hepatitis.ph/fhir/upvhproject/FamilyMemberHistory/FamilyMemberHistoryPOC1.3> a fhir:FamilyMemberHistory;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "FamilyMemberHistoryPOC1.3"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: FamilyMemberHistory</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource FamilyMemberHistory \"FamilyMemberHistoryPOC1.3\" </p></div><p><b>identifier</b>: id: 1-3</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient/POC1\">Patient/POC1</a></p><p><b>relationship</b>: family member <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (v3-RoleCode#FAMMEMB)</span></p><p><b>deceased</b>: false</p><h3>Conditions</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Liver cell carcinoma (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#109841003 \" Liver cell carcinoma (disorder)\")</span></td></tr></table></div>"
+  ];
+  fhir:FamilyMemberHistory.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://jv.com/fhir/NamingSystem/family-member-history-id" ];
+     fhir:Identifier.value [ fhir:value "1-3" ]
+  ];
+  fhir:FamilyMemberHistory.status [ fhir:value "completed"];
+  fhir:FamilyMemberHistory.patient [
+     fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Patient/POC1>;
+     fhir:Reference.reference [ fhir:value "Patient/POC1" ]
+  ];
+  fhir:FamilyMemberHistory.relationship [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "FAMMEMB" ];
+       fhir:Coding.display [ fhir:value "family member" ]
+     ]
+  ];
+  fhir:FamilyMemberHistory.deceasedBoolean [ fhir:value "false"^^xsd:boolean];
+  fhir:FamilyMemberHistory.condition [
+     fhir:index 0;
+     fhir:FamilyMemberHistory.condition.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:109841003;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "109841003" ];
+         fhir:Coding.display [ fhir:value " Liver cell carcinoma (disorder)" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Liver cell carcinoma (disorder)" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ehealth4hepatitis.ph/fhir/upvhproject/FamilyMemberHistory/FamilyMemberHistoryPOC1.3.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "UP Manila Viral Hepatitis Project Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-08-09T08:35:22+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-08-10T09:22:23+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "University of the Philippines Manila"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -363,22 +363,101 @@
          fhir:Extension.valueString [ fhir:value "Condition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/POC1.1>;
-         fhir:Reference.reference [ fhir:value "Condition/POC1.1" ]
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/ConditionPOC1.1>;
+         fhir:Reference.reference [ fhir:value "Condition/ConditionPOC1.1" ]
        ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/FamilyMemberHistory/FamilyMemberHistoryPOC1.3>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/FamilyMemberHistoryPOC1.3" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Encounter/EncounterPOC1>;
+         fhir:Reference.reference [ fhir:value "Encounter/EncounterPOC1" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/ConditionPOC1.2>;
+         fhir:Reference.reference [ fhir:value "Condition/ConditionPOC1.2" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Observation/ObservationPOC1.3>;
+         fhir:Reference.reference [ fhir:value "Observation/ObservationPOC1.3" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Observation/ObservationPOC1.1>;
+         fhir:Reference.reference [ fhir:value "Observation/ObservationPOC1.1" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Observation/ObservationPOC1.2>;
+         fhir:Reference.reference [ fhir:value "Observation/ObservationPOC1.2" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/StructureDefinition/ViralHepatitisModel>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/ViralHepatitisModel" ]
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/StructureDefinition/ViralHepatitisCaseReportFormModel>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ViralHepatitisCaseReportFormModel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral Hepatitis Logical Model" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Viral Hepatitis Information model" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral Hepatitis Case Report Form Logical Model" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Viral Hepatitis Case Report Form Logical Model" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/StructureDefinition/ViralHepatitisCareFormModel>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ViralHepatitisCareFormModel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral Hepatitis Care Form Logical Model" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Viral Hepatitis Care Form Information model" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
