@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FamilyMemberHistory xmlns="http://hl7.org/fhir">
+  <id value="FamilyMemberHistoryPOC1.3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: FamilyMemberHistory</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource FamilyMemberHistory "FamilyMemberHistoryPOC1.3" </p></div><p><b>identifier</b>: id: 1-3</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient/POC1">Patient/POC1</a></p><p><b>relationship</b>: family member <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (v3-RoleCode#FAMMEMB)</span></p><p><b>deceased</b>: false</p><h3>Conditions</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Liver cell carcinoma (disorder) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#109841003 " Liver cell carcinoma (disorder)")</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="https://jv.com/fhir/NamingSystem/family-member-history-id"/>
+    <value value="1-3"/>
+  </identifier>
+  <status value="completed"/>
+  <patient>
+    <reference value="Patient/POC1"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="https://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="FAMMEMB"/>
+      <display value="family member"/>
+    </coding>
+  </relationship>
+  <deceasedBoolean value="false"/>
+  <condition>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="109841003"/>
+        <display value=" Liver cell carcinoma (disorder)"/>
+      </coding>
+      <text value="Liver cell carcinoma (disorder)"/>
+    </code>
+  </condition>
+</FamilyMemberHistory>

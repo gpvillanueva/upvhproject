@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehealth4hepatitis.ph/fhir/upvhproject/Encounter/EncounterPOC1> a fhir:Encounter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "EncounterPOC1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter \"EncounterPOC1\" </p></div><p><b>identifier</b>: id: 1</p><p><b>status</b>: finished</p><p><b>class</b>: Inpatient Encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'Inpatient Encounter')</p><p><b>subject</b>: <a href=\"Patient/POC1\">Patient/POC1</a></p><p><b>period</b>: 2021-12-01 11:35:45-0800 --&gt; (ongoing)</p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Condition/POC1.1\">Condition/POC1.1</a></p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Condition/POC1.2\">Condition/POC1.2</a></p></blockquote><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href=\"Location/POC1\">Location/POC1</a></td></tr></table><p><b>serviceProvider</b>: <a href=\"Organization/POC1\">Organization/POC1</a></p></div>"
+  ];
+  fhir:Encounter.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://jv.com/fhir/NamingSystem/encounter-id" ];
+     fhir:Identifier.value [ fhir:value "1" ]
+  ];
+  fhir:Encounter.status [ fhir:value "finished"];
+  fhir:Encounter.class [
+     fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+     fhir:Coding.code [ fhir:value "IMP" ];
+     fhir:Coding.display [ fhir:value "Inpatient Encounter" ]
+  ];
+  fhir:Encounter.subject [
+     fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Patient/POC1>;
+     fhir:Reference.reference [ fhir:value "Patient/POC1" ]
+  ];
+  fhir:Encounter.period [
+     fhir:Period.start [ fhir:value "2021-12-01T11:35:45-08:00"^^xsd:dateTime ]
+  ];
+  fhir:Encounter.diagnosis [
+     fhir:index 0;
+     fhir:Encounter.diagnosis.condition [
+       fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/POC1.1>;
+       fhir:Reference.reference [ fhir:value "Condition/POC1.1" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Encounter.diagnosis.condition [
+       fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Condition/POC1.2>;
+       fhir:Reference.reference [ fhir:value "Condition/POC1.2" ]
+     ]
+  ];
+  fhir:Encounter.location [
+     fhir:index 0;
+     fhir:Encounter.location.location [
+       fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Location/POC1>;
+       fhir:Reference.reference [ fhir:value "Location/POC1" ]
+     ]
+  ];
+  fhir:Encounter.serviceProvider [
+     fhir:link <http://ehealth4hepatitis.ph/fhir/upvhproject/Organization/POC1>;
+     fhir:Reference.reference [ fhir:value "Organization/POC1" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ehealth4hepatitis.ph/fhir/upvhproject/Encounter/EncounterPOC1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

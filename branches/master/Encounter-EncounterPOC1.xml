@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="EncounterPOC1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Encounter</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Encounter "EncounterPOC1" </p></div><p><b>identifier</b>: id: 1</p><p><b>status</b>: finished</p><p><b>class</b>: Inpatient Encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'Inpatient Encounter')</p><p><b>subject</b>: <a href="Patient/POC1">Patient/POC1</a></p><p><b>period</b>: 2021-12-01 11:35:45-0800 --&gt; (ongoing)</p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="Condition/POC1.1">Condition/POC1.1</a></p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href="Condition/POC1.2">Condition/POC1.2</a></p></blockquote><h3>Locations</h3><table class="grid"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href="Location/POC1">Location/POC1</a></td></tr></table><p><b>serviceProvider</b>: <a href="Organization/POC1">Organization/POC1</a></p></div>
+  </text>
+  <identifier>
+    <system value="https://jv.com/fhir/NamingSystem/encounter-id"/>
+    <value value="1"/>
+  </identifier>
+  <status value="finished"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="IMP"/>
+    <display value="Inpatient Encounter"/>
+  </class>
+  <subject>
+    <reference value="Patient/POC1"/>
+  </subject>
+  <period>
+    <start value="2021-12-01T11:35:45-08:00"/>
+  </period>
+  <diagnosis>
+    <condition>
+      <reference value="Condition/POC1.1"/>
+    </condition>
+  </diagnosis>
+  <diagnosis>
+    <condition>
+      <reference value="Condition/POC1.2"/>
+    </condition>
+  </diagnosis>
+  <location>
+    <location>
+      <reference value="Location/POC1"/>
+    </location>
+  </location>
+  <serviceProvider>
+    <reference value="Organization/POC1"/>
+  </serviceProvider>
+</Encounter>

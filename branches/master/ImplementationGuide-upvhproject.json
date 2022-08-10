@@ -11,7 +11,7 @@
   "title": "UP Manila Viral Hepatitis Project Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-08-09T08:35:22+00:00",
+  "date": "2022-08-10T09:22:23+00:00",
   "publisher": "University of the Philippines Manila",
   "contact": [
     {
@@ -384,7 +384,73 @@
           }
         ],
         "reference": {
-          "reference": "Condition/POC1.1"
+          "reference": "Condition/ConditionPOC1.1"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/FamilyMemberHistoryPOC1.3"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/EncounterPOC1"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/ConditionPOC1.2"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ObservationPOC1.3"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ObservationPOC1.1"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ObservationPOC1.2"
         }
       },
       {
@@ -395,10 +461,23 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/ViralHepatitisModel"
+          "reference": "StructureDefinition/ViralHepatitisCaseReportFormModel"
         },
-        "name": "Viral Hepatitis Logical Model",
-        "description": "Viral Hepatitis Information model"
+        "name": "Viral Hepatitis Case Report Form Logical Model",
+        "description": "Viral Hepatitis Case Report Form Logical Model"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ViralHepatitisCareFormModel"
+        },
+        "name": "Viral Hepatitis Care Form Logical Model",
+        "description": "Viral Hepatitis Care Form Information model"
       }
     ],
     "page": {
