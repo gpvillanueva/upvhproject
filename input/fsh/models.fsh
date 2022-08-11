@@ -58,6 +58,13 @@ Description: "Viral Hepatitis Case Report Form Logical Model"
 * WasThereAHistoryOfBeingVaccinatedForHepatitisA 1..1 CodeableConcept "Client's History of Being Vaccinated for Hepatitis A" "Was there a history of being vaccinated for Hepatitis A?"
 * WasThereAHistoryOfBeingVaccinatedForHepatitisB 1..1 CodeableConcept "Client's History of Being Vaccinated for Hepatitis B" "Was there a history of being vaccinated for Hepatitis B?"
 * DoesTheClientHaveHistoryOfHIVTreatmentPriorToEnrollment 1..1 CodeableConcept "Client's History of Undergoing HIV Treatment Prior to Enrollment" "Does the client have history of HIV treatment prior to enrollment?"
+* DidTheClientTestedPositiveToAnyOfTheFollowing 1..1 BackboneElement "Client's History of Testing Positive to the following illnesses (HIV, Hepatitis B, and Hepatitis C)" "Did the client tested positive for HIV, Hepatitis B, or Hepatitis C prior to baseline diagnosis of hepatitis?"
+  * HIVIfTheClientHasHistoryOfTakingAntiretroviralDrugForHIV 1..1 BackboneElement "The Client has history of testing positive for HIV prior to the baseline diagnosis of viral hepatitis" "Did the client tested positive for HIV prior to baseline diagnosis of hepatitis?"
+    * NoYesHIVMedsTaken 1..1 BackboneElement "List of Antiretroviral Drugs for HIV Taken" "If the client has history of taking antiretroviral drugs, please specify the drug(s) used"
+  * HepatitisBIfTheClientHasHistoryOfTakingAntiviralDrugForHepB 1..1 BackboneElement "The Client has history of testing positive for Hepatitis B prior to the baseline diagnosis of viral hepatitis" "Did the client tested positive for Hepatitis B prior to baseline diagnosis of hepatitis?"
+    * NoYesHepatitisBMedsTaken 1..1 BackboneElement "List of Antiviral Drugs for Hepatitis B Taken" "If the client has history of taking antiviral drugs for Hepatitis B, please specify the drug(s) used"
+  * HepatitisCIfTheClientHasHistoryOfTakingAntiviralDrugForHepC 1..1 BackboneElement "The Client has history of testing positive for Hepatitis C prior to the baseline diagnosis of viral hepatitis" "Did the client tested positive for Hepatitis C prior to baseline diagnosis of hepatitis?"
+    * NoYesHepatitisCMedsTaken 1..1 BackboneElement "List of Antiviral Drugs for Hepatitis C Taken" "If the client has history of taking antiviral drugs for Hepatitis C, please specify the drug(s) used"
 
 
 
